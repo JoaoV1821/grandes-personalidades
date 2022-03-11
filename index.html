@@ -5,32 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grandes personalidades</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/media-querie.css">
+    <title>Viagem no tempo</title>
 </head>
 
-<body>
-    <header class="titulo">
-        <h1>Jogo das personalidades</h1>
+<body class="root">
+    <header class="cabecalho">
+        <h1>Uma Jornada no Tempo</h1>
     </header>
-
     <main>
-        <h2>Clique em uma personalidade para jogar</h2>
-        <section class="imagens">
-           
-            <p><a><img src="img/images/steve-jobs.jpg" alt="steve-jobs"></a></p>
-          
-            <p><a><img src="img/images/elon-musk.jpg" alt="elon-musk"></a></p>
-            
-            <p><a><img src="img/images/alan-turing.jpg" alt="alan-turing"></a></p>
-            
+        <div class="container">
+            <section class="text">
+                <p id="intro-text">
+                    Olá viajante, neste jogo você irá ajudar uma dentre três personalidades importantes da história da
+                    computação a vencer o Bulliyng e dentre outros desafios impostos em suas vidas, mas tudo tem um
+                    preço. Para vencer você deve fazer escolhas cirurgicamente precisas senão seus erros poderão acatar
+                    em graves consequências no presente!
+                </p>
 
-        </section>
-
+                <p id="rules-text">
+                    Regras da tripulação:
+                    <ol>
+                        <li class="rules">Você terá somente três tentativas para ajudar nossa personalidade</li>
+                        <li class="rules">Após as três tentativas todo o progresso será perdido</li>
+                        <li class="rules">Não ficar chateado se perder, você poderá retorna depois para corrigir seus
+                            erros</li>
+                    </ol>
+                </p>
+            </section>
+            <section class="buttom-init">
+                <button type="submit" formaction="html/choice.html">Iniciar minha Jornada</button>
+            </section>
+        </div>
     </main>
-
-    <script src="js/app.js"></script>
 </body>
 
 </html>

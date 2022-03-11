@@ -1,21 +1,36 @@
-body {
-   background-color: black;
-   color: white;
-   margin: 0%;
-   padding: 0%;
+.root {
+    font-family: var(--font-family);
+    color: var(--font-color);
+    background-image: url(/img/images/AffectionateDesertedGoa-max-1mb.gif);
 }
 
-.titulo {
+.cabecalho {
     display: flex;
     flex-direction: row;
-    justify-content:center ;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2%;
 }
 
-.imagens {
+.container {
     display: flex;
-    flex-direction: row;
+    align-items: center;
     width: 100%;
     height: 100%;
-    align-items:center;
-    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+.text {
+    font-size: 20px;
+    margin-left: 1%;
+}
+
+#rules-text {
+    margin-top: 10px;
+}
+
+.rules{
+    color: white;
+    list-style: decimal;
 }
