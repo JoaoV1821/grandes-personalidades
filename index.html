@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/media-querie.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/index.css">
     <title>Viagem no tempo</title>
@@ -29,18 +30,23 @@
 
                 <p id="rules-text">
                     Regras da tripulação:
-                    <ol>
+                    <ol id="rules-list">
                         <li class="rules">Você terá somente três tentativas para ajudar nossa personalidade</li>
                         <li class="rules">Após as três tentativas todo o progresso será perdido</li>
-                        <li class="rules">Não ficar chateado se perder, você poderá retorna depois para corrigir seus
+                        <li class="rules">Não fique chateado se perder, você poderá retorna depois para corrigir seus
                             erros</li>
                     </ol>
                 </p>
             </section>
+
             <section class="buttom-init">
-                <button type="submit" formaction="html/choice.html">Iniciar minha Jornada</button>
+                <a class="buttom-link" href="html/choice.html">
+                    <buttom>Iniciar minha Jornada</buttom>
+                </a>
             </section>
         </div>
+        <audio id="player" autoplay="autoplay">
+        <source src="music/scott-buckley-signal-to-noise.mp3" type="audio/mp3" />
     </main>
 </body>
 
