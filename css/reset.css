@@ -1,8 +1,18 @@
-* {
+.root {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
     text-decoration: none;
     --font-color: white;
     --font-family: 'IBM Plex Mono', monospace;
+    font-family: var(--font-family);
+    color: var(--font-color);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1%;
 }
