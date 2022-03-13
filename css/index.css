@@ -1,7 +1,7 @@
 .root {
     font-family: var(--font-family);
     color: var(--font-color);
-    background-image: url(/img/images/AffectionateDesertedGoa-max-1mb.gif);
+    background-image: url(background-img.gif);
 }
 
 .cabecalho {
