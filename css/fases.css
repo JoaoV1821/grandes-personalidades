@@ -1,0 +1,38 @@
+.root {
+    background-image: url(../img/images/background-img.gif);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.question-text {
+    margin-left: 3%;
+    font-size: 20px;
+}
+
+.alternativas {
+    margin-left: 2%;
+}
+
+#lista-alternativas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 15px;
+}
+
+.list-item {
+    list-style-type: lower-alpha;
+}
+
+.list-item :hover {
+    color: yellow;
+    transition: 0.5s;
+}
