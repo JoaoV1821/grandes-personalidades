@@ -1,0 +1,23 @@
+.root {
+    background-image: url(../img/images/background-img.gif);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link-img :link, .link-img :visited {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    width: 100%;
+}
+
+.link-img :hover {
+    text-decoration: none;
+    color: yellow;
+    font-size: 20px;
+    transition: 0.5s;
+}
