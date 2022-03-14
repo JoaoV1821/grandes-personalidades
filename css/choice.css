@@ -1,5 +1,6 @@
 .root {
     background-color: black;
+    text-decoration: none;
 }
 
 .container {
@@ -11,9 +12,10 @@
 
 .info-text {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    margin-left: 6%;
+    font-size: 15.5px;
+    margin-left: 1%;
 }
 
 .img-links {
@@ -30,7 +32,22 @@
     align-items: center;
 }
 
+.names {
+    font-size: 20px;
+   
+}
+
+.names :link, .names :visited{
+    text-decoration: none;
+    color: white;
+}
+
+
 .names :hover{
     color: yellow;
     transition: 0.5s;
+}
+
+#steve-jobs {
+    margin-bottom: 0%;
 }
