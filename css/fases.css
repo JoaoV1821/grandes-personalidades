@@ -18,14 +18,18 @@
 }
 
 .alternativas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     margin-left: 2%;
 }
 
 #lista-alternativas {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     justify-content: space-around;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .list-item {
@@ -35,4 +39,9 @@
 .list-item :hover {
     color: yellow;
     transition: 0.5s;
+}
+
+.buttom-answer {
+    border-radius: 10px;
+   
 }
