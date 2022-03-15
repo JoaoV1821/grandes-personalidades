@@ -8,14 +8,14 @@
     align-items: center;
 }
 
-.link-img :link, .link-img :visited {
+.link-return :link, .link-return :visited {
     color: white;
     text-decoration: none;
-    margin-left: 30px;
+    margin-top: 1%;
     width: 100%;
 }
 
-.link-img :hover {
+.link-return :hover {
     text-decoration: none;
     color: yellow;
     font-size: 20px;

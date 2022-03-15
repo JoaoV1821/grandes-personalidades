@@ -34,16 +34,17 @@
 
 .names {
     font-size: 20px;
-   
+
 }
 
-.names :link, .names :visited{
+.names :link,
+.names :visited {
     text-decoration: none;
     color: white;
 }
 
 
-.names :hover{
+.names :hover {
     color: yellow;
     transition: 0.5s;
 }
