@@ -1,0 +1,52 @@
+.root {
+    background-image: url('../img/images/background-img.gif');
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.history-info {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.history-text {
+    margin-top: 2% ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.content-history {
+    margin-top: 2%;
+    margin-right: 6%;
+    width: 60%;
+    height: 70%;
+    border: none;
+}
+
+.img-history {
+    margin-top: 4%;
+    margin-left: 6%;
+}
+
+
+.link-begin, .link-begin :link, .link-begin :visited{
+    margin-top: 7%;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.link-begin :hover {
+    text-decoration: none;
+    color: yellow;
+    transition: 0.5s;
+    font-size: 25px;
+}
