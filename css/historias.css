@@ -13,7 +13,7 @@
 .history-info {
     display: flex;
     flex-direction: row;
-
+    align-items: center;
 }
 
 .history-text {
@@ -33,7 +33,7 @@
 
 .img-history {
     margin-top: 4%;
-    margin-left: 6%;
+    margin-left: 10%;
 }
 
 
