@@ -28,6 +28,7 @@ function main() {
             if (resposta == 'd') {
 
                 alert('Você fez a escolha certa!');
+                window.location.href = 'fase3.html';
                 break;
 
             } else {
@@ -37,8 +38,8 @@ function main() {
             }
 
             if (count > 3) {
-                alert('Game Over!');
-                break
+                window.location.href = 'gameOver.html';
+                break;
             };
 
         } else {

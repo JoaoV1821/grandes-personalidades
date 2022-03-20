@@ -28,6 +28,7 @@ function main() {
             if (resposta == 'd') {
 
                 alert('Você fez a escolha certa!');
+                window.location.href = '../tela-vitoria.html';
                 break;
 
             } else {
@@ -37,7 +38,7 @@ function main() {
             }
 
             if (count > 3) {
-                alert('Game Over!');
+                window.location.href = 'gameOver.html';
                 break
             };
 

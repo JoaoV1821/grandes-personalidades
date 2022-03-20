@@ -28,6 +28,7 @@ function main() {
             if (resposta == 'd') {
 
                 alert('Você fez a escolha certa!');
+                window.location.href ='fase2.html'
                 break;
 
             } else {
