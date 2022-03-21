@@ -7,8 +7,8 @@ function validaResposta(resposta) {
             return true;
         } else {
            count ++
-        }
-    }
+        };
+    };
 
     return false;
 };
@@ -28,7 +28,7 @@ function main() {
             if (resposta == 'd') {
 
                 alert('Você fez a escolha certa!');
-                window.location.href = '../tela-vitoria.html';
+                window.location.href = 'vitoria.html';
                 break;
 
             } else {

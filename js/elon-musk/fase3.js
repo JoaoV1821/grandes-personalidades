@@ -25,10 +25,10 @@ function main() {
 
         if (valida) {
 
-            if (resposta == 'd') {
+            if (resposta == 'c') {
 
                 alert('Você fez a escolha certa!');
-                window.location.href = '../tela-vitoria.html';
+                window.location.href = 'vitoria.html';
                 break;
 
             } else {

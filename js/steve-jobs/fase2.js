@@ -1,12 +1,12 @@
 function validaResposta(resposta) {
     var count = 0;
     var respostas = ['a', 'b', 'c', 'd'];
-    
+
     while (count < respostas.length) {
         if (resposta == respostas[count]) {
             return true;
         } else {
-           count ++
+            count++
         }
     }
 
