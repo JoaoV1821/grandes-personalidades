@@ -7,8 +7,8 @@ function validaResposta(resposta) {
             return true;
         } else {
            count ++
-        };
-    };
+        }
+    }
 
     return false;
 };
@@ -17,18 +17,15 @@ function main() {
     var count = 1;
 
     while (true) {
-        var resposta = prompt('Digite sua resposta');
+        var resposta = prompt('Digite sua resposta').toLowerCase();
         var valida = validaResposta(resposta);
-
-        console.log(resposta);
-        console.log(valida);
 
         if (valida) {
 
             if (resposta == 'd') {
 
                 alert('Você fez a escolha certa!');
-                window.location.href = 'vitoria.html';
+                window.location.href ='vitoria.html'
                 break;
 
             } else {

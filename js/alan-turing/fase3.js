@@ -17,11 +17,8 @@ function main() {
     var count = 1;
 
     while (true) {
-        var resposta = prompt('Digite sua resposta');
+        var resposta = prompt('Digite sua resposta').toLowerCase();
         var valida = validaResposta(resposta);
-
-        console.log(resposta);
-        console.log(valida);
 
         if (valida) {
 
@@ -38,8 +35,7 @@ function main() {
             }
 
             if (count > 3) {
-                alert('Game Over!');
-                window.location.href = 'gameOver.html'
+                window.location.href = 'gameOver.html';
                 break
             };
 

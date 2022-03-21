@@ -20,15 +20,12 @@ function main() {
         var resposta = prompt('Digite sua resposta').toLowerCase();
         var valida = validaResposta(resposta);
 
-        console.log(resposta);
-        console.log(valida);
-
         if (valida) {
 
             if (resposta == 'b') {
 
                 alert('Você fez a escolha certa!');
-                window.location.href ='fase3.html';
+                window.location.href ='fase3.html'
                 break;
 
             } else {

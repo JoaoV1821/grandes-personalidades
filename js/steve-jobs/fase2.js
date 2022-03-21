@@ -1,12 +1,12 @@
 function validaResposta(resposta) {
     var count = 0;
     var respostas = ['a', 'b', 'c', 'd'];
-
+    
     while (count < respostas.length) {
         if (resposta == respostas[count]) {
             return true;
         } else {
-            count++
+           count ++
         }
     }
 
@@ -17,18 +17,15 @@ function main() {
     var count = 1;
 
     while (true) {
-        var resposta = prompt('Digite sua resposta');
+        var resposta = prompt('Digite sua resposta').toLowerCase();
         var valida = validaResposta(resposta);
-
-        console.log(resposta);
-        console.log(valida);
 
         if (valida) {
 
             if (resposta == 'd') {
 
                 alert('Você fez a escolha certa!');
-                window.location.href = 'fase3.html';
+                window.location.href ='fase3.html'
                 break;
 
             } else {
@@ -39,7 +36,7 @@ function main() {
 
             if (count > 3) {
                 window.location.href = 'gameOver.html';
-                break;
+                break
             };
 
         } else {
