@@ -17,7 +17,7 @@
 }
 
 .history-text {
-    margin-top: 2% ;
+    margin-top: 2%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -38,7 +38,9 @@
 }
 
 
-.link-begin, .link-begin :link, .link-begin :visited{
+.link-begin,
+.link-begin :link,
+.link-begin :visited {
     margin-top: 7%;
     font-size: 20px;
     color: white;
@@ -50,4 +52,19 @@
     color: yellow;
     transition: 0.5s;
     font-size: 25px;
+}
+
+@media (max-width: 360px) {
+    .history-info {
+        flex-direction: column;
+    }
+
+   .img-history {
+       margin-left: 1%;
+   }
+
+   .link-begin {
+       margin-top: 0%;
+       margin-bottom: 2%;
+   }
 }
