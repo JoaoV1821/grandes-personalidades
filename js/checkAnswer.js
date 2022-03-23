@@ -13,7 +13,7 @@ function validaResposta(resposta) {
     return false;
 };
 
-function main() {
+function checkAnswer(answer, nextPage) {
     var count = 1;
 
     while (true) {
@@ -22,10 +22,10 @@ function main() {
 
         if (valida) {
 
-            if (resposta == 'd') {
+            if (resposta == answer) {
 
                 alert('Você fez a escolha certa!');
-                window.location.href ='fase3.html'
+                window.location.href = nextPage;
                 break;
 
             } else {
