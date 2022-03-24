@@ -1,14 +1,10 @@
-.root {
-    background-image: url(../img/images/background-img.gif);
-}
-
 .container {
     display: flex;
     align-items: center;
     width: 100%;
     height: 100%;
     flex-direction: column;
-    
+
 }
 
 .text {
@@ -18,12 +14,12 @@
 
 #rules-text {
     margin-top: 15px;
-  
+
 }
 
 .rules {
     color: white;
-    text-decoration: none ;
+    text-decoration: none;
 }
 
 #rules-list {
@@ -52,4 +48,3 @@
     transition: 0.5s;
     color: yellow;
 }
-

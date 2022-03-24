@@ -1,7 +1,3 @@
-.root {
-    background-image: url(../img/images/background-img.gif);
-}
-
 .container {
     display: flex;
     flex-direction: column;
@@ -9,7 +5,7 @@
     align-items: center;
     width: 100%;
     height: 100%;
-    
+
 }
 
 .question-text {
@@ -42,5 +38,5 @@
 }
 
 .buttom-answer {
-    border-radius: 10px; 
+    border-radius: 10px;
 }

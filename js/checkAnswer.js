@@ -1,18 +1,24 @@
+/* 
+    Arquivo responsável por processar as informações do usuário
+*/
+
+// Função validadora de resposta
 function validaResposta(resposta) {
     var count = 0;
     var respostas = ['a', 'b', 'c', 'd'];
-    
+
     while (count < respostas.length) {
         if (resposta == respostas[count]) {
             return true;
         } else {
-           count ++
+            count++;
         }
     }
 
     return false;
 };
 
+// Função que processa a resposta
 function checkAnswer(answer, nextPage) {
     var count = 1;
 
@@ -31,12 +37,12 @@ function checkAnswer(answer, nextPage) {
             } else {
 
                 alert('Escolha errada tente mais uma vez!');
-                count++
+                count++;
             }
 
             if (count > 3) {
                 window.location.href = 'gameOver.html';
-                break
+                break;
             };
 
         } else {

@@ -1,14 +1,11 @@
-.root {
-    background-image: url(../img/images/background-img.gif);
-}
-
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.link-return :link, .link-return :visited {
+.link-return :link,
+.link-return :visited {
     color: white;
     text-decoration: none;
     margin-top: 1%;
